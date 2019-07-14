@@ -7,7 +7,6 @@ verify_ssl = true
 mkdocs = "*"
 
 [packages]
-mkdocs-material = "*"
 
 [requires]
 python_version = "3.7"
