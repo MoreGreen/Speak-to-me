@@ -1,2 +1,6 @@
 site_name: Speak to me
 theme: readthedocs
+
+nav:
+  - Home: index.md
+  - Sobre: sobre.md
