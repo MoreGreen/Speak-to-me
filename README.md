@@ -3,7 +3,12 @@
 lan chat em python
 
 ## instalação
-> em breve
+` git clone https://github.com/MarcosRamon00/Speak-to-me.git`
+` cd SPEAK-TO-ME `
+` pipenv install `
+` cd src `
+` python speak_to_me.py `
+ 
 
 # referencias e fontes
 ## documentação e tests em python
