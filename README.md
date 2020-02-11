@@ -10,5 +10,7 @@ lan chat em python
 [Eduardo Mendes](https://www.youtube.com/user/mendesesduardo/videos)
 ### documentação
 [Eduardo Mendes](https://www.youtube.com/watch?v=rX8MRsN1N-U)
-## socktes em python
-[Sockets with Python 3](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdzLB_0JSTTcl8E8jsJLhR5)
+
+## flask e socket io
+### Codigo base
+[Python Flask y Socketio | Conexión y Chat de Ejemplo](https://www.youtube.com/watch?v=71DZYl4Q4o8)
