@@ -1,30 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>index</title>
-</head>
-<body>
-    <h1>flask socket io</h1>
-    <ul id="messages"></ul>
-    <input type="text" id="myMessages">
-    <button id="send">send</button>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js" charset="utf-8"></script>
-    <script>
-        const socket = io();
-        socket.emit('message','hello');
-        socket.on('message',function(msg){
-            $('#messages').append('<li>' + msg + '</li>')
-        });
-        $('#send').on('click',function(){
-            //console.log($('#myMessages').val());
-            socket.send($('#myMessages').val());
-            $('#myMessages').val(''); 
-=======
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -63,7 +37,6 @@
         $('#send").on("click", function() {
             socket.send($('#myMessage').val());
             $('#myMessage').val(' ');
->>>>>>> develop
         });
     </script>
 </body>
